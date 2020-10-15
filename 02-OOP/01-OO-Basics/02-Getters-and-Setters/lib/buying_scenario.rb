@@ -8,7 +8,7 @@ end
 
 # We instantiate a new vending machine selling 2.5 euros snacks. In the beginning
 # this machine has a stock of 10 snacks.
-vending_machine = VendingMachine.new(250, 10)
+vending_machine = VendingMachine.new(250, 1)
 puts "Vending machine ready!"
 puts display(vending_machine)
 
