@@ -28,3 +28,4 @@ Our program has 7 modules
 -  **17h30-19h00**: "live-code session". A teacher (or sometimes a motivated student) chooses an interesting challenge of the day, or invents a new one. Then she/he will code the solution **from scratch** in front of the class on the projector. Doing so, she/he should interact with the class and ask them what to do. One of the most important moments of the day, don't miss it!
 
 Every day, there's 5 to 10 different challenges with their own test suite, and additional optional exercises for the fastest among you.
+# fullstack-challenges_TA-OOP-Batch-496
