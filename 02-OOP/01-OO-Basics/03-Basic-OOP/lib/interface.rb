@@ -8,20 +8,18 @@ is_dead = orange_tree.dead?
 until is_dead
   orange_tree.one_year_passes!
   print "One year passes"
-  sleep(0.1)
-  print "."
-  sleep(0.05)
-  print "."
-  sleep(0.05)
-  puts "."
-  sleep(0.05)
+  10.times do
+    sleep(0.0001)
+    print "."
+  end
+  puts ""
   is_dead = orange_tree.dead?
   if is_dead
     puts "Your orange tree is dead :("
   else
     puts "Your orange tree is #{pluralize(orange_tree.age, 'year')} old, measures #{pluralize(orange_tree.height, 'meter')}, gives #{pluralize(orange_tree.fruits, 'fruit')}, and is still alive :)"
   end
-  sleep(0.1)
+  sleep(0.005)
   puts ""
 end
 # rubocop:enable Metrics/LineLength
