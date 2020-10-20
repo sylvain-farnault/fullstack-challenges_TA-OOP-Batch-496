@@ -3,9 +3,9 @@ class Meal
   attr_accessor :id
 
   def initialize(params = {})
+    @id = params[:id]
     @name = params[:name]
     @price = params[:price]
-    @id = params[:id]
   end
 
 end
